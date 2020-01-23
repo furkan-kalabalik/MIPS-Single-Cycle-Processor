@@ -1,0 +1,37 @@
+module extend8BitUnsigned(num, result);
+input [31:0] num;
+output [31:0] result;
+and(result[0], num[0], 1'b1);
+and(result[1], num[1], 1'b1);
+and(result[2], num[2], 1'b1);
+and(result[3], num[3], 1'b1);
+and(result[4], num[4], 1'b1);
+and(result[5], num[5], 1'b1);
+and(result[6], num[6], 1'b1);
+and(result[7], num[7], 1'b1);
+and(result[8], 1'b0, 1'b1);
+and(result[9], 1'b0, 1'b1);
+and(result[10], 1'b0, 1'b1);
+and(result[11], 1'b0, 1'b1);
+and(result[12], 1'b0, 1'b1);
+and(result[13], 1'b0, 1'b1);
+and(result[14], 1'b0, 1'b1);
+and(result[15], 1'b0, 1'b1);
+and(result[16], 1'b0, 1'b1);
+and(result[17], 1'b0, 1'b1);
+and(result[18], 1'b0, 1'b1);
+and(result[19], 1'b0, 1'b1);
+and(result[20], 1'b0, 1'b1);
+and(result[21], 1'b0, 1'b1);
+and(result[22], 1'b0, 1'b1);
+and(result[23], 1'b0, 1'b1);
+and(result[24], 1'b0, 1'b1);
+and(result[25], 1'b0, 1'b1);
+and(result[26], 1'b0, 1'b1);
+and(result[27], 1'b0, 1'b1);
+and(result[28], 1'b0, 1'b1);
+and(result[29], 1'b0, 1'b1);
+and(result[30], 1'b0, 1'b1);
+and(result[31], 1'b0, 1'b1);
+endmodule
+

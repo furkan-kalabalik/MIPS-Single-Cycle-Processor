@@ -1,0 +1,37 @@
+module extend8BitSigned(num, result);
+input [31:0] num;
+output [31:0] result;
+and(result[0], num[0], 1'b1);
+and(result[1], num[1], 1'b1);
+and(result[2], num[2], 1'b1);
+and(result[3], num[3], 1'b1);
+and(result[4], num[4], 1'b1);
+and(result[5], num[5], 1'b1);
+and(result[6], num[6], 1'b1);
+and(result[7], num[7], 1'b1);
+and(result[8], num[7], 1'b1);
+and(result[9], num[7], 1'b1);
+and(result[10], num[7], 1'b1);
+and(result[11], num[7], 1'b1);
+and(result[12], num[7], 1'b1);
+and(result[13], num[7], 1'b1);
+and(result[14], num[7], 1'b1);
+and(result[15], num[7], 1'b1);
+and(result[16], num[7], 1'b1);
+and(result[17], num[7], 1'b1);
+and(result[18], num[7], 1'b1);
+and(result[19], num[7], 1'b1);
+and(result[20], num[7], 1'b1);
+and(result[21], num[7], 1'b1);
+and(result[22], num[7], 1'b1);
+and(result[23], num[7], 1'b1);
+and(result[24], num[7], 1'b1);
+and(result[25], num[7], 1'b1);
+and(result[26], num[7], 1'b1);
+and(result[27], num[7], 1'b1);
+and(result[28], num[7], 1'b1);
+and(result[29], num[7], 1'b1);
+and(result[30], num[7], 1'b1);
+and(result[31], num[7], 1'b1);
+endmodule
+
